@@ -2,12 +2,13 @@ package ex_23_OOPs_Super;
 
 public class Lab194_Super {
     public static void main(String[] args) {
-        Animal a1 = new Animal();
-        a1.sound();
+        Animal cat = new Animal(1,2);
+        cat.sound();
     }
 
 }
 class God{
+    public  int gold = 100;
     void sound(){
         System.out.println("GOD!!");
     }
